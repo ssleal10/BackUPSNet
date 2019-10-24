@@ -1,5 +1,7 @@
 conda install pytorch=1.2.0 -c pytorch
 
+*NO ESPECIFICAR TOOLKIT,el que ya tiene el servidor sirve*
+
 bash init.sh (si sale error instalar lo que haga falta)
 
 bash init_coco.sh (descarga y organiza automaticamente lo necesario *train,val y anotaciones*)
