@@ -8,7 +8,7 @@ bash init_coco.sh (descarga y organiza automaticamente lo necesario *train,val y
 
 CUDA_VISIBLE_DEVICES=1 python -W ignore  upsnet/upsnet_end2end_train.py --cfg upsnet/experiments/upsnet_resnet50_coco_1gpu.yaml
 
-CUDA_VISIBLE_DEVICES=1 python -W ignore upsnet/upsnet_end2end_test.py --cfg upsnet/experiments/upsnet_resnet50_coco_1gpu.yaml --weight_path ./NLBmodel.pth
+CUDA_VISIBLE_DEVICES=1 python -W ignore upsnet/upsnet_end2end_test.py --cfg upsnet/experiments/upsnet_resnet50_coco_1gpu.yaml --weight_path NLBmodel.pth
 
 
 -W ignore para que no saque molestos avisos de deprecacion
